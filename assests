@@ -1,1 +1,10 @@
+# create folder if needed
+mkdir -p assets
 
+# copy your image into the folder
+cp /path/to/local/image.png assets/
+
+# stage, commit, push
+git add assets/image.png
+git commit -m "Add image: assets/image.png"
+git push origin <main>
