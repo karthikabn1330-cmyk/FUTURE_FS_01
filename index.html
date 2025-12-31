@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Karthika B Nadar</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Professional portfolio of Karthika B Nadar, an Electronics and Computer Science Engineering student specializing in full-stack development, cloud computing, and automation.">
+    <meta name="keywords"
+        content="Karthika B Nadar, Full Stack Developer, Engineering Student, Portfolio, Web Development, Cloud Computing, AWS, Automation, IoT">
+    <meta name="author" content="Karthika B Nadar">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://karthika-portfolio.com/">
+    <meta property="og:title" content="Portfolio | Karthika B Nadar">
+    <meta property="og:description"
+        content="Professional portfolio of Karthika B Nadar, showcasing skills in full-stack development and automation.">
+    <meta property="og:image" content="assets/profile.svg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://karthika-portfolio.com/">
+    <meta property="twitter:title" content="Portfolio | Karthika B Nadar">
+    <meta property="twitter:description"
+        content="Professional portfolio of Karthika B Nadar, showcasing skills in full-stack development and automation.">
+    <meta property="twitter:image" content="assets/profile.svg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">Karthika<span>.</span></a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <!-- Replace 'assets/resume.pdf' with your actual resume file -->
+                <li><a href="assets/resume.pdf" class="btn btn-primary" id="resume-btn"
+                        download="Karthika_Nadar_Resume">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <p class="greeting">Hi, my name is</p>
+                    <h1 class="name">Karthika B Nadar.</h1>
+                    <h2 class="role">Engineering Student & Developer.</h2>
+                    <p class="bio-short">I am a second-year Electronics and Computer Science Engineering student
+                        passionate about full-stack development, cloud computing, and automation systems.</p>
+                    <div class="hero-btns">
+                        <a href="#projects" class="btn btn-primary">Check out my work!</a>
+                        <a href="#contact" class="btn btn-outline">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="img-wrapper">
+                        <!-- User uploaded profile photo -->
+                        <img src="assets/profile.jpg" alt="Profile Photo of Karthika B Nadar">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-padding">
+            <div class="container">
+                <h2 class="section-title">01. About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I am a second-year Electronics and Computer Science Engineering student at SIES Graduate
+                            School of Technology, with a strong and growing interest in full-stack development, cloud
+                            computing, automation, and robotics-oriented systems. I am motivated to work on technologies
+                            that integrate software and hardware to build efficient, scalable, and real-world solutions.
+                        </p>
+
+                        <p>Through my academic curriculum, I have gained basic working knowledge of C, Java, Python, and
+                            AutoCAD, which has helped me develop strong fundamentals in programming logic, system
+                            design, and technical problem-solving. Alongside academics, I have worked on practical
+                            projects such as a Smart Home Automation system implemented using multiple control methods,
+                            and an AWS cloud architecture project focused on designing a simple, scalable hosting
+                            solution.</p>
+
+                        <p>Currently, I am enhancing my practical skills through a Full-Stack Web Development
+                            internship, where I am learning how modern web applications are built, structured, and
+                            deployed. My exposure to cloud platforms, automation projects, and software development has
+                            strengthened my interest in cloud-connected automation and intelligent systems, especially
+                            in areas related to robotics and system integration.</p>
+
+                        <p>I am highly adaptable, eager to learn, and open to working across domains. I approach every
+                            opportunity with a growth mindset and the confidence to take on new challenges, with the
+                            long-term goal of contributing to innovative, scalable, and automation-driven technologies.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section-padding">
+            <div class="container">
+                <h2 class="section-title">02. My Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fa-brands fa-html5"></i>
+                        <h3>Frontend</h3>
+                        <p>HTML, CSS, JavaScript, React (Beginner)</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <h3>Full-Stack Web Dev</h3>
+                        <p>Building modern interfaces and backend logic. Learning through real-world internship tasks.
+                        </p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-brands fa-aws"></i>
+                        <h3>Cloud Computing</h3>
+                        <p>AWS Architecture, scalable hosting designs, reliability, and cost-effectiveness.</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-solid fa-microchip"></i>
+                        <h3>Automation & IoT</h3>
+                        <p>Integrating sensors, controllers, and communication tech for smart systems.</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-solid fa-code"></i>
+                        <h3>Programming Fundamentals</h3>
+                        <p>Strong logic building in C, Java, and Python.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section-padding">
+            <div class="container">
+                <h2 class="section-title">03. Some Things I've Built</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <!-- Replace src with your image: assets/project-portfolio.png -->
+                            <img src="assets/project-portfolio.png" alt="Portfolio Website Project">
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <div class="folder-icon">
+                                    <i class="fa-regular fa-folder"></i>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" aria-label="GitHub Link"><i class="fa-brands fa-github"></i></a>
+                                </div>
+                            </div>
+                            <h3 class="project-title">Portfolio Website</h3>
+                            <p class="project-description">
+                                A professional personal portfolio website built with clean, modern, and responsive
+                                design.
+                            </p>
+                            <ul class="project-tech">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <!-- Project 2: Smart Home -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <!-- Replace src with your image: assets/project-smarthome.png -->
+                            <img src="assets/project-smarthome.png" alt="Smart Home Automation Project">
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <div class="folder-icon">
+                                    <i class="fa-regular fa-folder"></i>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" aria-label="GitHub Link"><i class="fa-brands fa-github"></i></a>
+                                </div>
+                            </div>
+                            <h3 class="project-title">Smart Home Automation</h3>
+                            <p class="project-description">
+                                A system implemented using multiple control methods to automate home devices,
+                                integrating
+                                hardware sensors and controllers.
+                            </p>
+                            <ul class="project-tech">
+                                <li>IoT</li>
+                                <li>Sensors</li>
+                                <li>Automation</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: AWS -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <!-- Replace src with your image: assets/project-aws.png -->
+                            <img src="assets/project-aws.png" alt="AWS Cloud Architecture Project">
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <div class="folder-icon">
+                                    <i class="fa-regular fa-folder"></i>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" aria-label="GitHub Link"><i class="fa-brands fa-github"></i></a>
+                                </div>
+                            </div>
+                            <h3 class="project-title">AWS Cloud Architecture</h3>
+                            <p class="project-description">
+                                Designed a simple, scalable hosting solution focusing on reliability and
+                                cost-effectiveness
+                                using AWS services.
+                            </p>
+                            <ul class="project-tech">
+                                <li>AWS</li>
+                                <li>Cloud Architecture</li>
+                                <li>Hosting</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Project 4: Internship -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <!-- Replace src with your image: assets/project-internship.png -->
+                            <img src="assets/project-internship.png" alt="Full-Stack Internship Project">
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <div class="folder-icon">
+                                    <i class="fa-regular fa-folder"></i>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" aria-label="GitHub Link"><i class="fa-brands fa-github"></i></a>
+                                </div>
+                            </div>
+                            <h3 class="project-title">Full-Stack Internship</h3>
+                            <p class="project-description">
+                                Ongoing work on modern web applications, learning structure, deployment, and development
+                                best practices.
+                            </p>
+                            <ul class="project-tech">
+                                <li>Web Development</li>
+                                <li>Deployment</li>
+                                <li>Full-Stack</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-padding">
+            <div class="container contact-container">
+                <h2 class="section-title">04. What's Next?</h2>
+                <h1 class="contact-heading">Get In Touch</h1>
+                <p class="contact-text">
+                    I'm currently looking for new opportunities in full-stack dev and automation. Whether you have a
+                    question or just want to say hi, I'll try my best to get back to you!
+                </p>
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <p>Designed & Built by Karthika B Nadar</p>
+        </div>
+    </footer>
+
+    <!-- Image Modal -->
+    <div id="image-modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-img">
+        <div id="caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
