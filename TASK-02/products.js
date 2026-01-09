@@ -10,7 +10,7 @@ window.admins = [
         type: 'seller',
         address: '12, G.G Road, Thane',
         password: 'admin123',
-        showrooms: ['sr_1', 'sr_2', 'sr_3']
+        showrooms: ['sr_1', 'sr_2', 'sr_3', 'sr_7']
     },
     {
         id: 'admin_2',
@@ -20,7 +20,7 @@ window.admins = [
         type: 'seller',
         address: '45/B, Indiranagar 100ft Road, Bangalore',
         password: 'admin123',
-        showrooms: ['sr_4', 'sr_5']
+        showrooms: ['sr_4', 'sr_5', 'sr_8']
     },
     {
         id: 'admin_3',
@@ -83,7 +83,24 @@ window.showrooms = [
         location: 'South Delhi, Delhi',
         salesCount: 132,
         licenseId: 'GSTIN29AABCU9912'
-    }
+    },
+    {
+        id: 'sr_7',
+        adminId: 'admin_1',
+        name: 'KN Motors',
+        location: 'Dadar, Maharashtra',
+        salesCount: 74,
+        licenseId: 'GSTIN27AABCP5678'
+    },
+
+    {
+        id: 'sr_8',
+        adminId: 'admin_2',
+        name: 'Urban Rides ',
+        location: 'Thane, Maharashtra',
+        salesCount: 59,
+        licenseId: 'GSTIN29AABCU9012'
+    },
 ];
 
 window.products = [
@@ -100,7 +117,7 @@ window.products = [
         transmission: 'Automatic/7-speed DCT',
         specs: { engine: '5.2L(5204cc) V10', power: '630 BHP', braking: 'ABS, high-performance discs' },
         showroomId: 'sr_2',
-        features: { autopilot: false, sunroof: false }
+
     },
     {
         id: 'c_lux_2',
@@ -114,10 +131,10 @@ window.products = [
         transmission: 'Automatic/8-speed',
         showroomId: 'sr_1',
         specs: { engine: '3.0L(2993cc) inline-6 turbo', power: '493 HP', braking: 'Sports brakes + ABS + DSC' },
-        features: { autopilot: true, sunroof: true }
+
     },
     {
-        id: 'c_aff_1',
+        id: 'c_1',
         name: 'TATA Harrier EV',
         brand: 'TATA Motors',
         category: 'cars',
@@ -128,13 +145,13 @@ window.products = [
         transmission: 'EV single speed',
         showroomId: 'sr_4',
         specs: { battery: '75 kWh', power: '390 bhp(290kW) AWD', braking: 'AEBS' },
-        features: { autopilot: true, sunroof: true }
+
     },
 
 
     // --- Bikes ---
     {
-        id: 'p6',
+        id: 'b_lux_1',
         name: 'Ducati Panigale V4 R',
         brand: 'Ducati',
         category: 'bikes',
@@ -148,7 +165,7 @@ window.products = [
 
     },
     {
-        id: 'p7',
+        id: 'b_lux_2',
         name: 'Kawasaki Ninja H2',
         brand: 'Kawasaki',
         category: 'bikes',
@@ -174,7 +191,106 @@ window.products = [
         specs: { engine: '349cc', power: '20 BHP', braking: 'Dual-ABS' },
         showroomId: 'sr_3',
 
-    }
+    },
+    {
+        id: 'c_lux_3',
+        name: 'BMW X3',
+        brand: 'BMW',
+        category: 'car',
+        price: 7100000,
+        image: 'https://img.pcauto.com/model/images/modelPic/my/bmw-x3/523766439_1749717147412.png',
+        description: 'Mid-size luxury SUV — smooth refinement, spacious cabin, and strong tech features.',
+        fuel: 'Petrol',
+        transmission: 'Automatic',
+        specs: { engine: '2.0L', power: '250 BHP', braking: 'ABS+EBD' },
+        showroomId: 'sr_1',
+
+    },
+    {
+        id: 'c_lux_4',
+        name: 'BMW 2 Series Gran Coupe',
+        brand: 'BMW',
+        category: 'car',
+        price: 4550000,
+        image: 'https://ik.imagekit.io/girnar/sayaratbay/large/gallery/exterior/4/2069/bmw-2-series-gran-coupe-front-angle-low-view-645238.jpg',
+        description: 'Compact premium four-door coupe-style sedan with sporty handling — ideal for city and highway use.',
+        fuel: 'Petrol',
+        transmission: 'Automatic',
+        specs: { engine: '1.5L', power: '150 BHP', braking: 'ABS+EBD' },
+        showroomId: 'sr_1',
+
+    },
+    {
+        id: 'b_1',
+        name: 'TVS IQube electric',
+        brand: 'TVS',
+        category: 'bikes',
+        price: 130000,
+        image: 'https://images.91wheels.com/assets/b_images/main/models/profile/profile1629208120.png?width=360',
+        description: 'Urban commuter EV scooter with smooth throttle, zero emissions and smart connected features.',
+        fuel: 'Electric',
+        transmission: 'Automatic',
+        showroomId: 'sr_7',
+        specs: { engine: ' ', power: '7kW (urban e-motor)', braking: 'Disc+ABS' },
+
+    },
+    {
+        id: 'b_2',
+        name: 'TVS Apache RR 310',
+        brand: 'TVS',
+        category: 'bikes',
+        price: 260000,
+        image: 'https://5.imimg.com/data5/SELLER/Default/2021/6/KH/CC/HT/65935201/tvs-apache-rr-310-bike-1000x1000.png',
+        description: 'Fully-faired sporty bike with aggressive stance, strong brakes and rider aids like riding modes 6-Speed manual transmission.',
+        fuel: 'Petrol',
+        transmission: '6-Speed manual',
+        showroomId: 'sr_7',
+        specs: { engine: '312 cc Single, Liquid-cooled', power: '38 BHP', braking: 'Dual Disc+ABS' },
+
+    },
+    {
+        id: 'b_3',
+        name: 'Yamaha FZ-X',
+        brand: 'Yamaha',
+        category: 'bikes',
+        price: 120000,
+        image: 'https://vroomhead.com/wp-content/uploads/2023/02/image-2023-02-15T154111.897-768x548.jpg',
+        description: 'Neo-retro street bike with upright ergonomics, LED lighting and traction control — ideal for city and mild touring. 5-Speed manual transmission.',
+        fuel: 'Petrol',
+        transmission: '5-Speed manual',
+        showroomId: 'sr_8',
+        specs: { engine: '149 cc Single, Air-cooled', power: '12.2 BHP', braking: 'Dual ABS' },
+
+    },
+    {
+        id: 'c_2',
+        name: 'TATA Sierra',
+        brand: 'TATA Motors',
+        category: 'cars',
+        price: 1200000,
+        image: 'https://content.carlelo.com/media/models/SierraEV/base/tata-sierra-ev.webp',
+        description: 'Retro-styled 5-door SUV with modern features, panoramic sunroof, and ADAS.',
+        fuel: 'Petrol',
+        transmission: 'DCT',
+        showroomId: 'sr_4',
+        specs: { battery: '1.5L', power: '105 BHP', braking: 'ABS+EBD' },
+
+    },
+    {
+        id: 'b_4',
+        name: 'Royal Enfield Hunter 350',
+        brand: 'Royal Enfield',
+        category: 'bikes',
+        price: 220000,
+        image: 'https://api.gobikes.co.in/uploads/bike/RE-Hunter.png',
+        description: 'A lightweight retro-metro cruiser motorcycle ideal for urban riding with agile handling and classic Royal Enfield style',
+        fuel: 'Petrol',
+        transmission: '5-speed Manual',
+        specs: { engine: '349cc', power: '20 BHP', braking: 'Dual Disc' },
+        showroomId: 'sr_3',
+
+    },
+
 ];
 
 // Initial Order History (Mock)
